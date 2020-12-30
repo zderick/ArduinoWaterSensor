@@ -34,7 +34,6 @@ void loop() {
     BUZZED = false;
   } else if (WATER_LEVEL <= 500) {
     digitalWrite(GREEN_LED, HIGH);
-    BUZZED = false;
   } else if (WATER_LEVEL <= 550) {
     digitalWrite(YELLOW_LED, HIGH);
     digitalWrite(RED_LED, HIGH);
